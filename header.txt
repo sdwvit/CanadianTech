@@ -22,5 +22,5 @@ Inspiration for this came from seeing j-delaney [easy-application](https://githu
 ## 
 ## The List
 <!-- BEGIN DATA -->
-| Company Name | Location |
+| Company Name | Salary @ Senior lvl |
 | --- | --- |
