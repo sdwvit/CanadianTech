@@ -21,7 +21,7 @@
 | [Shopify](https://www.shopify.com/ca/careers) | 207 002 CAD : 162 тис. - 45 тис. - N/A |
 | [Polar Asset Manag...](https://polaramp.com/talent/) | 320 000 CAD : 320 тис. - N/A - N/A |
 | [Salesforce](https://www.salesforce.com/company/careers/) | 205 266 CAD : 158 тис. - 23,57 тис. - 23,7 тис. |
-| [DigitalOcean](couldn't fetch) | 298 523 CAD : 198 тис. - 34,52 тис. - N/A |
+| [DigitalOcean](https://www.digitalocean.com/careers) | 298 523 CAD : 198 тис. - 34,52 тис. - N/A |
 | [Kraken](https://www.kraken.com/careers) | 280 560 CAD : 280,56 тис. - N/A - N/A |
 | [Coursera](https://about.coursera.org/careers) | 233 501 CAD : 159 тис. - 59,5 тис. - 15 тис. |
 | [Carta](https://carta.com/careers/) | 278 001 CAD : 228 тис. - 50 тис. - N/A |
@@ -32,7 +32,7 @@
 | [Penn National Gaming](https://www.pennentertainment.com/careers) | 252 751 CAD : 200 тис. - 52,75 тис. - N/A |
 | [Cisco](https://www.cisco.com/c/en/us/about/careers.html) | 268 173 CAD : 180 тис. - 41,17 тис. - 47 тис. |
 | [Ledn](https://ledn.io/careers) | 261 988 CAD : 200 тис. - 61,99 тис. - N/A |
-| [Bolt](couldn't fetch) | 260 000 CAD : 260 тис. - N/A - N/A |
+| [Bolt](https://www.bolt.com/careers) | 260 000 CAD : 260 тис. - N/A - N/A |
 | [Yelp](https://www.yelp.careers/) | 240 151 CAD : 140 тис. - 100,15 тис. - N/A |
 | [Planned](https://planned.com/careers) | 258 501 CAD : 220 тис. - 38,5 тис. - N/A |
 | [Wayfair](https://www.aboutwayfair.com/careers) | 220 000 CAD : 220 тис. - N/A - N/A |
@@ -40,7 +40,6 @@
 | [Qualcomm](https://www.qualcomm.com/company/careers) | 249 000 CAD : 136 тис. - 100 тис. - 13 тис. |
 | [Twitch](https://www.twitch.tv/jobs/) | 250 000 CAD : 185 тис. - 15 тис. - 50 тис. |
 | [StackAdapt](https://www.stackadapt.com/careers) | 215 001 CAD : 200 тис. - 15 тис. - N/A |
-| [Software Engineer](https://www.computerscience.org/careers/software-engineer/) | 243 152 CAD : 243,15 тис. - N/A - N/A |
 | [VTS](https://www.vts.com/careers) | 250 000 CAD : 200 тис. - 50 тис. - N/A |
 | [AMD](https://careers.amd.com/) | 236 334 CAD : 145 тис. - 41,33 тис. - 50 тис. |
 | [SADA](https://sada.com/careers-cloud-computing-business-solutions/) | 210 000 CAD : 210 тис. - N/A - N/A |

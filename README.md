@@ -22,7 +22,7 @@ Inspiration for this came from seeing j-delaney [easy-application](https://githu
 ## 
 ## The List
 <!-- BEGIN DATA -->
-| Company Name | Salary @ Senior lvl |
+| Company Name | Sr. Salaries TC : Base - Stock - Bonus |
 | --- | --- |
 | [ACV Auctions](https://www.acvauctions.com/careers) | 216 803 CAD : 150 тис. - 66,8 тис. - N/A |
 | [Amazon](https://www.amazon.jobs/) | 214 535 CAD : 160 тис. - 29,53 тис. - 25 тис. |
@@ -30,7 +30,7 @@ Inspiration for this came from seeing j-delaney [easy-application](https://githu
 | [Autodesk](https://www.autodesk.com/careers/overview) | 249 989 CAD : 157,99 тис. - 70 тис. - 22 тис. |
 | [Binance](https://www.binance.com/en/careers/job-openings) | 229 501 CAD : 170 тис. - N/A - 59,5 тис. |
 | [Block](https://block.xyz/careers) | 276 979 CAD : 173 тис. - 103,98 тис. - N/A |
-| [Bolt](couldn't fetch) | 260 000 CAD : 260 тис. - N/A - N/A |
+| [Bolt](https://www.bolt.com/careers) | 260 000 CAD : 260 тис. - N/A - N/A |
 | [Brex](https://www.brex.com/careers) | 500 000 CAD : 350 тис. - 150 тис. - N/A |
 | [Carta](https://carta.com/careers/) | 278 001 CAD : 228 тис. - 50 тис. - N/A |
 | [Cerebras Systems](https://www.cerebras.net/join-us/) | 240 000 CAD : 240 тис. - N/A - N/A |
@@ -40,7 +40,7 @@ Inspiration for this came from seeing j-delaney [easy-application](https://githu
 | [Coinbase](https://www.coinbase.com/careers) | 374 732 CAD : 185,49 тис. - 163,73 тис. - 25,51 тис. |
 | [Coursera](https://about.coursera.org/careers) | 233 501 CAD : 159 тис. - 59,5 тис. - 15 тис. |
 | [CrowdStrike](https://www.crowdstrike.com/careers/) | 230 000 CAD : 168 тис. - 50 тис. - 12 тис. |
-| [DigitalOcean](couldn't fetch) | 298 523 CAD : 198 тис. - 34,52 тис. - N/A |
+| [DigitalOcean](https://www.digitalocean.com/careers) | 298 523 CAD : 198 тис. - 34,52 тис. - N/A |
 | [Etsy](https://careers.etsy.com/) | 325 201 CAD : 182 тис. - 125 тис. - 18,2 тис. |
 | [Facebook](https://www.metacareers.com/) | 222 000 CAD : 140 тис. - 82 тис. - N/A |
 | [Faire](https://www.faire.com/en-ca/careers) | 465 002 CAD : 215 тис. - 250 тис. - N/A |
@@ -72,7 +72,6 @@ Inspiration for this came from seeing j-delaney [easy-application](https://githu
 | [Salesforce](https://www.salesforce.com/company/careers/) | 205 266 CAD : 158 тис. - 23,57 тис. - 23,7 тис. |
 | [Shopify](https://www.shopify.com/ca/careers) | 207 002 CAD : 162 тис. - 45 тис. - N/A |
 | [Snowflake](https://careers.snowflake.com/) | 432 000 CAD : 180 тис. - 225 тис. - 27 тис. |
-| [Software Engineer](https://www.computerscience.org/careers/software-engineer/) | 243 152 CAD : 243,15 тис. - N/A - N/A |
 | [Square](https://careers.squareup.com/ca/en) | 247 389 CAD : 160 тис. - 87,39 тис. - N/A |
 | [StackAdapt](https://www.stackadapt.com/careers) | 215 001 CAD : 200 тис. - 15 тис. - N/A |
 | [Stripe](https://stripe.com/jobs/search) | 280 965 CAD : 180 тис. - 100,96 тис. - N/A |
