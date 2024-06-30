@@ -21,60 +21,60 @@ Inspiration for this came from seeing j-delaney [easy-application](https://githu
 
 ## The list
 
-| Company Name | Salary Breakdown |
-| --- | --- |
-| [ADP](https://jobs.adp.com/en/) | $173,001: 155K - N/A - 18K |
-| [Amazon](https://www.amazon.jobs/) | $214,001: 149K - 65K - N/A |
-| [AMD](https://careers.amd.com/careers-home/jobs) | $204,321: 130K - 54.8K - 19.5K |
-| [Astera](https://www.astera.com/careers) | $269,947: 175K - 51.2K - 43.7K |
-| [Autodesk](https://www.autodesk.com/careers) | $232,000: 150K - 60K - 22K |
-| [Babylist](https://www.babylist.com/about/careers) | $184,300: 184.3K - N/A - N/A |
-| [Benevity](https://www.benevity.com/careers) | $170,385: 161.6K - 2.8K - 6K |
-| [Briza](https://www.briza.com/careers) | $202,000: 162K - 40K - N/A |
-| [Cerebras Systems](https://www.cerebras.net/join-us/) | $442,002: 200K - 242K - N/A |
-| [Cohere](https://cohere.com/careers) | $230,001: 230K - N/A - N/A |
-| [CollegeVine](https://www.collegevine.com/jobs) | $200,000: 200K - N/A - N/A |
-| [Criteo](https://careers.criteo.com/en/) | $215,001: 175K - 15K - 25K |
-| [DataVisor](https://www.datavisor.com/careers/) | $160,001: 160K - N/A - N/A |
-| [Deeplite](https://www.deeplite.ai/careers) | $180,000: 180K - N/A - N/A |
-| [Electronic Arts](https://www.ea.com/careers) | $213,654: 150K - 41.2K - 22.5K |
-| [Exiger](https://www.exiger.com/careers) | $168,500: 135K - 20K - 13.5K |
-| [Faire](https://www.faire.com/careers) | $400,002: 200K - 200K - N/A |
-| [Ford Motor](https://corporate.ford.com/careers.html) | $150,000: 120K - 10K - 20K |
-| [Google](https://www.google.com/about/careers/applications/) | $320,002: 147K - 173K - N/A |
-| [HelloFresh](https://careers.hellofresh.com/global/en/) | $155,001: 140K - 15K - N/A |
-| [Hootsuite](https://hootsuite.com/about/careers) | $160,000: 120K - 40K - N/A |
-| [HPE](https://careers.hpe.com/us/en) | $160,844: 144K - 6.8K - 10K |
-| [HPQ](https://jobs.hp.com/us/) | $158,079: 142.6K - 9.5K - 6K |
-| [Instacart](https://instacart.careers/) | $320,000: 200K - 120K - N/A |
-| [Intuit](https://www.intuit.com/careers/) | $155,000: 108K - 40K - 7K |
-| [Johnson & Johnson](https://www.jnj.com/) | $238,001: 190K - N/A - 48K |
-| [Kelvin Zero](https://kelvinzero.com/careers) | $157,500: 140K - 17.5K - N/A |
-| [Lazer Technologies](https://www.lazertechnologies.com/careers) | $180,000: 174K - N/A - 6K |
-| [Microsoft](https://careers.microsoft.com/) | $169,000: 120K - 40K - 9K |
-| [Morningstar](https://www.morningstar.com/careers) | $157,000: 131K - N/A - 26K |
-| [Motive Technologies](https://www.gomotive.com/careers/) | $160,000: 120K - 40K - N/A |
-| [Mozilla](https://www.mozilla.org/en-US/careers/listings/) | $159,000: 144K - N/A - 15K |
-| [Okta](https://www.okta.com/company/careers/) | $250,000: $222,650 - N/A - 26K |
-| [OneSpan](https://www.onespan.com/about/careers) | $150,000: 140K - 10K - N/A |
-| [Procurify](https://www.procurify.com/careers/) | $190,500: 170K - 12K - 8.5K |
-| [Qlik](https://www.qlik.com/us/company/careers) | $154,500: 154.5K - N/A - N/A |
-| [Qualcomm](https://careers.qualcomm.com/) | $156,200: 116.2K - 40K - N/A |
-| [RBC](https://jobs.rbc.com/) | $185,001: 145K - 20K - 20K |
-| [ResQ](https://www.getresq.com/careers) | $167,500: 167.5K - N/A - N/A |
-| [RightEye](https://righteye.com/careers/) | $185,519: 185.5K - N/A - N/A |
-| [Robinhood](https://careers.robinhood.com/) | $212,500: 145K - 37.5K - 30K |
-| [Salesforce](https://www.salesforce.com/company/careers/) | $200,000: 160K - 40K - N/A |
-| [Scotiabank](https://www.scotiabank.com/careers/en/careers.html) | $155,000: 125K - N/A - 30K |
-| [Shopify](https://www.shopify.com/careers) | $281,500: 247.5K - 29K - 5K |
-| [Stripe](https://stripe.com/jobs/search) | $200,948: 153K - 47.9K - N/A |
-| [SurveyMonkey](https://www.surveymonkey.com/mp/careers/) | $214,641: 154K - 36K - 24.6K |
-| [theScore](https://www.scoremediaandgaming.com/careers) | $189,750: 165K - N/A - 24.8K |
-| [Thomson Reuters](https://careers.thomsonreuters.com/) | $168,001: 140K - 7K - 21K |
-| [UKG](https://www.ukg.com/careers) | $154,000: 139K - 7.5K - 7.5K |
-| [Unity](https://careers.unity.com/) | $182,549: 127.5K - 55K - N/A |
-| [Upgrade](https://www.upgrade.com/careers/) | $230,001: 210K - 20K - N/A |
-| [Walmart Global Tech](https://tech.walmart.com/content/walmart-global-tech/en_us/careers.html) | $244,000: 170K - 40K - 34K |
+| Company Name                                                                                   | Sr. Salaries TC in CAD : Base - Stock - Bonus |
+|------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [ADP](https://jobs.adp.com/en/)                                                                | $173,001: 155K - N/A - 18K                    |
+| [Amazon](https://www.amazon.jobs/)                                                             | $214,001: 149K - 65K - N/A                    |
+| [AMD](https://careers.amd.com/careers-home/jobs)                                               | $204,321: 130K - 54.8K - 19.5K                |
+| [Astera](https://www.astera.com/careers)                                                       | $269,947: 175K - 51.2K - 43.7K                |
+| [Autodesk](https://www.autodesk.com/careers)                                                   | $232,000: 150K - 60K - 22K                    |
+| [Babylist](https://www.babylist.com/about/careers)                                             | $184,300: 184.3K - N/A - N/A                  |
+| [Benevity](https://www.benevity.com/careers)                                                   | $170,385: 161.6K - 2.8K - 6K                  |
+| [Briza](https://www.briza.com/careers)                                                         | $202,000: 162K - 40K - N/A                    |
+| [Cerebras Systems](https://www.cerebras.net/join-us/)                                          | $442,002: 200K - 242K - N/A                   |
+| [Cohere](https://cohere.com/careers)                                                           | $230,001: 230K - N/A - N/A                    |
+| [CollegeVine](https://www.collegevine.com/jobs)                                                | $200,000: 200K - N/A - N/A                    |
+| [Criteo](https://careers.criteo.com/en/)                                                       | $215,001: 175K - 15K - 25K                    |
+| [DataVisor](https://www.datavisor.com/careers/)                                                | $160,001: 160K - N/A - N/A                    |
+| [Deeplite](https://www.deeplite.ai/careers)                                                    | $180,000: 180K - N/A - N/A                    |
+| [Electronic Arts](https://www.ea.com/careers)                                                  | $213,654: 150K - 41.2K - 22.5K                |
+| [Exiger](https://www.exiger.com/careers)                                                       | $168,500: 135K - 20K - 13.5K                  |
+| [Faire](https://www.faire.com/careers)                                                         | $400,002: 200K - 200K - N/A                   |
+| [Ford Motor](https://corporate.ford.com/careers.html)                                          | $150,000: 120K - 10K - 20K                    |
+| [Google](https://www.google.com/about/careers/applications/)                                   | $320,002: 147K - 173K - N/A                   |
+| [HelloFresh](https://careers.hellofresh.com/global/en/)                                        | $155,001: 140K - 15K - N/A                    |
+| [Hootsuite](https://hootsuite.com/about/careers)                                               | $160,000: 120K - 40K - N/A                    |
+| [HPE](https://careers.hpe.com/us/en)                                                           | $160,844: 144K - 6.8K - 10K                   |
+| [HPQ](https://jobs.hp.com/us/)                                                                 | $158,079: 142.6K - 9.5K - 6K                  |
+| [Instacart](https://instacart.careers/)                                                        | $320,000: 200K - 120K - N/A                   |
+| [Intuit](https://www.intuit.com/careers/)                                                      | $155,000: 108K - 40K - 7K                     |
+| [Johnson & Johnson](https://www.jnj.com/)                                                      | $238,001: 190K - N/A - 48K                    |
+| [Kelvin Zero](https://kelvinzero.com/careers)                                                  | $157,500: 140K - 17.5K - N/A                  |
+| [Lazer Technologies](https://www.lazertechnologies.com/careers)                                | $180,000: 174K - N/A - 6K                     |
+| [Microsoft](https://careers.microsoft.com/)                                                    | $169,000: 120K - 40K - 9K                     |
+| [Morningstar](https://www.morningstar.com/careers)                                             | $157,000: 131K - N/A - 26K                    |
+| [Motive Technologies](https://www.gomotive.com/careers/)                                       | $160,000: 120K - 40K - N/A                    |
+| [Mozilla](https://www.mozilla.org/en-US/careers/listings/)                                     | $159,000: 144K - N/A - 15K                    |
+| [Okta](https://www.okta.com/company/careers/)                                                  | $250,000: $222,650 - N/A - 26K                |
+| [OneSpan](https://www.onespan.com/about/careers)                                               | $150,000: 140K - 10K - N/A                    |
+| [Procurify](https://www.procurify.com/careers/)                                                | $190,500: 170K - 12K - 8.5K                   |
+| [Qlik](https://www.qlik.com/us/company/careers)                                                | $154,500: 154.5K - N/A - N/A                  |
+| [Qualcomm](https://careers.qualcomm.com/)                                                      | $156,200: 116.2K - 40K - N/A                  |
+| [RBC](https://jobs.rbc.com/)                                                                   | $185,001: 145K - 20K - 20K                    |
+| [ResQ](https://www.getresq.com/careers)                                                        | $167,500: 167.5K - N/A - N/A                  |
+| [RightEye](https://righteye.com/careers/)                                                      | $185,519: 185.5K - N/A - N/A                  |
+| [Robinhood](https://careers.robinhood.com/)                                                    | $212,500: 145K - 37.5K - 30K                  |
+| [Salesforce](https://www.salesforce.com/company/careers/)                                      | $200,000: 160K - 40K - N/A                    |
+| [Scotiabank](https://www.scotiabank.com/careers/en/careers.html)                               | $155,000: 125K - N/A - 30K                    |
+| [Shopify](https://www.shopify.com/careers)                                                     | $281,500: 247.5K - 29K - 5K                   |
+| [Stripe](https://stripe.com/jobs/search)                                                       | $200,948: 153K - 47.9K - N/A                  |
+| [SurveyMonkey](https://www.surveymonkey.com/mp/careers/)                                       | $214,641: 154K - 36K - 24.6K                  |
+| [theScore](https://www.scoremediaandgaming.com/careers)                                        | $189,750: 165K - N/A - 24.8K                  |
+| [Thomson Reuters](https://careers.thomsonreuters.com/)                                         | $168,001: 140K - 7K - 21K                     |
+| [UKG](https://www.ukg.com/careers)                                                             | $154,000: 139K - 7.5K - 7.5K                  |
+| [Unity](https://careers.unity.com/)                                                            | $182,549: 127.5K - 55K - N/A                  |
+| [Upgrade](https://www.upgrade.com/careers/)                                                    | $230,001: 210K - 20K - N/A                    |
+| [Walmart Global Tech](https://tech.walmart.com/content/walmart-global-tech/en_us/careers.html) | $244,000: 170K - 40K - 34K                    |
 
 
 <details>
