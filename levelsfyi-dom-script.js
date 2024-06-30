@@ -1,61 +1,61 @@
 let levels = {};
+const getFirstLine = (el) => el.innerText.split("\n")[0];
+const getComp = (el) => {
+  const [total, _, breakdown] = el.innerText.split("\n");
+  const [base, stock, bonus] = breakdown.split(" | ");
+  return { total, breakdown: { base, stock, bonus } };
+};
+
 async function getLevels() {
-    return levels = {
-        ...levels,
-        ...Object.fromEntries(
-            await Promise.all(
-                [...document.querySelectorAll('svg[data-icon="angle-down"]')]
-                    .map((e) => e.parentElement.parentElement.parentElement)
-                    .map((e) => [
-                        [...e.childNodes][0].querySelector("span").innerText.split("\n")[0],
-                        e, // tr
-                    ])
-                    .map(async ([c, tr]) => [
-                        c,
-                        {
-                            salaryStr: [...tr.childNodes]
-                                .slice(-1)[0]
-                                .querySelector(".css-0")
-                                .innerText.replaceAll("|", "-")
-                                .replaceAll("\n\n", " : ")
-                                .replaceAll(" ", " "),
-                            link: await new Promise((resolve) =>
-                                setTimeout(resolve, Math.random() * 5000)
-                            )
-                                .then(() =>
-                                    fetch(
-                                        `http://localhost:8080/cse.google.com/cse/element/v1?gss=.com&cselibv=c23214b953e32f29&cx=c132c85eea46f4011&q=${c.replaceAll(
-                                            " ",
-                                            "%20"
-                                        )}+careers&safe=active&cse_tok=ALwrddGnRvYLuOz4BgTBvWo7LvjP:1677875338364&sort=&exp=csqr,cc&oq=${c.replaceAll(
-                                            " ",
-                                            "%20"
-                                        )}+careers&gs_l=partner-web.3.0.0i512i433i131j0i512l9.13722.14782.1.15597.6.6.0.0.0.0.96.473.6.6.0.csems%2Cnrl%3D10...0....1.34.partner-web..0.21.1552.Rm8KBT8JV2s&cseclient=hosted-page-client&callback=google.search.cse.api5686`,
-                                        {
-                                            headers: { Accept: "application/json" },
-                                        }
-                                    )
-                                )
-                                .then((r) => r.text())
-                                .then((t) =>
-                                    t
-                                        .replaceAll("/*O_o*/\n" + "google.search.cse.api5686(", "")
-                                        .replaceAll(");", "")
-                                )
-                                .then((json) => JSON.parse(json).results[0].url)
-                                .catch(() => "couldn't fetch"),
-                        },
-                    ])
+  const allDropdowns = document.querySelectorAll("svg.fa-angle-down");
+  const allTableNodes = [...allDropdowns].map(
+    (e) => e.parentElement.parentElement.parentElement,
+  );
+  const allRows = allTableNodes.filter((e) => e.nodeName === "TR");
+  const allRowsWithCells = allRows.map((e) => [...e.childNodes]);
+  const entryTds = allRowsWithCells.map(([name, level, tenure, comp]) => ({
+    name: getFirstLine(name),
+    level: getFirstLine(level),
+    tenure: getFirstLine(tenure),
+    comp: getComp(comp),
+  }));
+
+  return (levels = {
+    ...levels,
+    ...Object.fromEntries(
+      await Promise.all(
+        entryTds.slice(1).map(async ({ name, comp }, i) => [
+          name,
+          {
+            salaryStr: `${comp.total}: ${comp.breakdown.base} - ${comp.breakdown.stock} - ${comp.breakdown.bonus}`,
+            link: await new Promise((resolve) =>
+              setTimeout(resolve, (Math.random() + 4) * 1000 * i),
             )
-        ),
-    };
+              .then(() =>
+                fetch(
+                  `http://localhost:8080/customsearch/v1?key=&q=${name}+careers`,
+                  {
+                    headers: { Accept: "application/json" },
+                  },
+                ),
+              )
+              .then((r) => r.json())
+              .then((t) => {
+                return t.items[0].link;
+              })
+              .catch(() => "couldn't fetch"),
+          },
+        ]),
+      ),
+    ),
+  });
 }
 let getLevelsStr = async () =>
-    Object.entries(await getLevels())
-        .map(
-            (e) =>
-                "| " + [`[${e[0]}](${e[1].link})`, e[1].salaryStr].join(" | ") + " |"
-        )
-        .join("\n");
+  Object.entries(await getLevels())
+    .map(
+      (e) =>
+        "| " + [`[${e[0]}](${e[1].link})`, e[1].salaryStr].join(" | ") + " |",
+    )
+    .join("\n");
 
 getLevelsStr().then((str) => console.log(str));
