@@ -1,5 +1,6 @@
 let levels = {};
 const getFirstLine = (el) => el.innerText.split("\n")[0];
+const DECENCY_THRESHOLD = 150; //K
 const getComp = (el) => {
   const [total, _, breakdown] = el.innerText.split("\n");
   const [base, stock, bonus] = breakdown.split(" | ");
@@ -19,31 +20,19 @@ async function getLevels() {
     tenure: getFirstLine(tenure),
     comp: getComp(comp),
   }));
+  const worthwhileTds = entryTds.filter(
+    (e) => parseInt(e.comp.total.replaceAll(",", "").replace('$', '')) >= DECENCY_THRESHOLD,
+  );
 
   return (levels = {
     ...levels,
     ...Object.fromEntries(
       await Promise.all(
-        entryTds.slice(1).map(async ({ name, comp }, i) => [
+        worthwhileTds.map(async ({ name, comp }, i) => [
           name,
           {
             salaryStr: `${comp.total}: ${comp.breakdown.base} - ${comp.breakdown.stock} - ${comp.breakdown.bonus}`,
-            link: await new Promise((resolve) =>
-              setTimeout(resolve, (Math.random() + 4) * 1000 * i),
-            )
-              .then(() =>
-                fetch(
-                  `http://localhost:8080/customsearch/v1?key=&q=${name}+careers`,
-                  {
-                    headers: { Accept: "application/json" },
-                  },
-                ),
-              )
-              .then((r) => r.json())
-              .then((t) => {
-                return t.items[0].link;
-              })
-              .catch(() => "couldn't fetch"),
+            link: "use chat gpt to find links",
           },
         ]),
       ),
